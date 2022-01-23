@@ -1,0 +1,173 @@
+{% block title %} Provide Taxi Forecast Input for Application{% endblock %}
+
+{% block content %}
+
+<form action="#" method = "post">
+  <h3>Select ZipCode or Neighborhood</h3>
+    <p>Select ZipCode:</p>
+    <input list="zipcodes" name = "zips">
+    <datalist id = "zipcodes">
+        <option value = 60601>
+        <option value = 60603>
+        <option value = 60604>
+        <option value = 60605>
+        <option value = 60607>
+        <option value = 60608>
+        <option value = 60609>
+        <option value = 60610>
+        <option value = 60611>
+        <option value = 60612>
+        <option value = 60613>
+        <option value = 60614>
+        <option value = 60615>
+        <option value = 60616>
+        <option value = 60617>
+        <option value = 60618>
+        <option value = 60619>
+        <option value = 60620>
+        <option value = 60621>
+        <option value = 60622>
+        <option value = 60623>
+        <option value = 60624>
+        <option value = 60625>
+        <option value = 60626>
+        <option value = 60628>
+        <option value = 60629>
+        <option value = 60630>
+        <option value = 60631>
+        <option value = 60632>
+        <option value = 60633>
+        <option value = 60634>
+        <option value = 60636>
+        <option value = 60637>
+        <option value = 60638>
+        <option value = 60639>
+        <option value = 60640>
+        <option value = 60641>
+        <option value = 60642>
+        <option value = 60643>
+        <option value = 60644>
+        <option value = 60645>
+        <option value = 60646>
+        <option value = 60647>
+        <option value = 60649>
+        <option value = 60651>
+        <option value = 60652>
+        <option value = 60653>
+        <option value = 60654>
+        <option value = 60655>
+        <option value = 60656>
+        <option value = 60657>
+        <option value = 60659>
+        <option value = 60660>
+        <option value = 60661>
+        <option value = 60666>
+        <option value = 60707>
+    </datalist>
+    <p>Select Neighborhood:</p>
+    <input list="neighborhoods" name = "comms">
+    <datalist id = "neighborhoods">
+        <option value = 'ALBANY PARK'>
+        <option value = 'ARCHER HEIGHTS'>
+        <option value = 'ARMOUR SQUARE'>
+        <option value = 'ASHBURN'>
+        <option value = 'AUBURN GRESHAM'>
+        <option value = 'AUSTIN'>
+        <option value = 'AVALON PARK'>
+        <option value = 'AVONDALE'>
+        <option value = 'BELMONT CRAGIN'>
+        <option value = 'BEVERLY'>
+        <option value = 'BRIDGEPORT'>
+        <option value = 'BRIGHTON PARK'>
+        <option value = 'BURNSIDE'>
+        <option value = 'CALUMET HEIGHTS'>
+        <option value = 'CHATHAM'>
+        <option value = 'CHICAGO LAWN'>
+        <option value = 'CLEARING'>
+        <option value = 'DOUGLAS'>
+        <option value = 'DUNNING'>
+        <option value = 'EAST GARFIELD PARK'>
+        <option value = 'EAST SIDE'>
+        <option value = 'EDGEWATER'>
+        <option value = 'EDISON PARK'>
+        <option value = 'ENGLEWOOD'>
+        <option value = 'FOREST GLEN'>
+        <option value = 'FULLER PARK'>
+        <option value = 'GAGE PARK'>
+        <option value = 'GARFIELD RIDGE'>
+        <option value = 'GRAND BOULEVARD'>
+        <option value = 'GREATER GRAND CROSSING'>
+        <option value = 'HEGEWISCH'>
+        <option value = 'HERMOSA'>
+        <option value = 'HUMBOLDT PARK'>
+        <option value = 'HYDE PARK'>
+        <option value = 'IRVING PARK'>
+        <option value = 'JEFFERSON PARK'>
+        <option value = 'KENWOOD'>
+        <option value = 'LAKE VIEW'>
+        <option value = 'LINCOLN PARK'>
+        <option value = 'LINCOLN SQUARE'>
+        <option value = 'LOGAN SQUARE'>
+        <option value = 'LOOP'>
+        <option value = 'LOWER WEST SIDE'>
+        <option value = 'MCKINLEY PARK'>
+        <option value = 'MONTCLARE'>
+        <option value = 'MORGAN PARK'>
+        <option value = 'MOUNT GREENWOOD'>
+        <option value = 'NEAR NORTH SIDE'>
+        <option value = 'NEAR SOUTH SIDE'>
+        <option value = 'NEAR WEST SIDE'>
+        <option value = 'NEW CITY'>
+        <option value = 'NORTH CENTER'>
+        <option value = 'NORTH LAWNDALE'>
+        <option value = 'NORTH PARK'>
+        <option value = 'NORWOOD PARK'>
+        <option value = 'OAKLAND'>
+        <option value = 'OHARE'>
+        <option value = 'PORTAGE PARK'>
+        <option value = 'PULLMAN'>
+        <option value = 'RIVERDALE'>
+        <option value = 'ROGERS PARK'>
+        <option value = 'ROSELAND'>
+        <option value = 'SOUTH CHICAGO'>
+        <option value = 'SOUTH DEERING'>
+        <option value = 'SOUTH LAWNDALE'>
+        <option value = 'SOUTH SHORE'>
+        <option value = 'UPTOWN'>
+        <option value = 'WASHINGTON HEIGHTS'>
+        <option value = 'WASHINGTON PARK'>
+        <option value = 'WEST ELSDON'>
+        <option value = 'WEST ENGLEWOOD'>
+        <option value = 'WEST GARFIELD PARK'>
+        <option value = 'WEST LAWN'>
+        <option value = 'WEST PULLMAN'>
+        <option value = 'WEST RIDGE'>
+        <option value = 'WEST TOWN'>
+        <option value = 'WOODLAWN'>
+    </datalist>
+  <h3>Select the Number of Periods To Forecast</h3>
+  <p>Number of Periods to Forecast:</p>
+  <input type="number" name="n_per" min="1" max="365">
+  <p>Forecast Frequency</p>
+  <p>D=Days, W=Weeks, M=Months, Q=Quarters, Y=Years</p>
+  <input list = "frequency" name = "f">
+  <datalist id = "frequency">
+    <option value = 'D'>
+    <option value = 'W'>
+    <option value = 'M'>
+    <option value = 'Q'>
+    <option value = 'Y'>
+  </datalist>
+  <h3>Select the Taxi Transaction Type</h3>
+  <p>Pickup, Dropoff, or Total Taxi Transactions</p>
+  <input type="radio" id="pickup" name="p_or_d" value="Pickup">
+  <label for="pickup">Pickup</label><br>
+  <input type="radio" id="dropoff" name="p_or_d" value="Dropoff">
+  <label for="dropoff">Dropoff</label><br>
+  <input type="radio" id="dropoff" name="p_or_d" value="Total">
+  <label for="dropoff">Total</label><br>
+
+  <input type="submit">
+</form>
+{% endblock %}
+
