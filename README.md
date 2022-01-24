@@ -4,6 +4,13 @@ View demonstration videos at: \
 Initial Demo: https://youtu.be/O_6QAt2OPJk \
 Final Demo: https://youtu.be/K7fkKaYzzx8 
 
+# Bags Accuracy Study
+
+Introduction to Accuracy: https://sublimestatistics.com/2020/06/12/introduction-to-accuracy/ \
+The Baseline: https://sublimestatistics.com/2020/06/18/the-baseline/ \
+Throw Technique Study: https://sublimestatistics.com/2020/06/27/throw-technique-study/ \
+Check In and Strategy Study: https://sublimestatistics.com/2020/07/13/check-in-strategy-study/ \
+
 # Sloan Sports Analytics Conference 2020 (SSAC 2020) Sports Gaming Innovation Challenge
 
 Sports Betting Mutual Fund Theory: https://sublimestatistics.com/2020/02/24/sports-betting-mutual-funds/ \
