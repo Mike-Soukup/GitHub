@@ -10,6 +10,9 @@ Introduction to Accuracy: https://sublimestatistics.com/2020/06/12/introduction-
 The Baseline: https://sublimestatistics.com/2020/06/18/the-baseline/ \
 Throw Technique Study: https://sublimestatistics.com/2020/06/27/throw-technique-study/ \
 Check In and Strategy Study: https://sublimestatistics.com/2020/07/13/check-in-strategy-study/ \
+Progress Review: A Linear Approach: https://sublimestatistics.com/2020/07/21/progress-review-a-linear-approach/ \
+Accuracy Study: Lessons Learned Thus Far: https://sublimestatistics.com/2020/09/04/accuracy-study-lessons-learned-thus-far/ \
+Gameplan to 50: https://sublimestatistics.com/2020/09/10/gameplan-to-50/ \
 
 # Sloan Sports Analytics Conference 2020 (SSAC 2020) Sports Gaming Innovation Challenge
 
