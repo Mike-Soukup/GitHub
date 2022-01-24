@@ -1,0 +1,11 @@
+Present a system of equations that you have come across professionally (or personally, if that is not an option) that contains three or more linear equations. and three or more variables. Create one if you have to, but be sure to describe the scenario. Follow up by solving your set of equations using either the Echelon or Gauss-Jordan method. Which method do you prefer? Why?
+
+At the end of the month I am getting a puppy! Puppy fever has led me to go on a bit of a shopping spree so I can spoil my new pup with dog treats to create an instant bond. However, I don't know which treats my pup will prefer so I bought three different types:
+
+Canine Carry Outs have 25 treats and 50 grams of fat per bag at a cost of $4.
+
+Milk-Bone Small MaroSnacks have 125 treats and 80 grams of fat per bag at a cost of $9.
+
+Zuke's Mini Naturals have 225 treats and 32 grams of fat per bag at a cost of $14.
+
+After unpacking my groceries, I found out that I have 1025 treats and 704 g of fat worth of pure puppy bliss. My store receipt said I spent $87. Now I am wondering how many bags of each dog treat I got.

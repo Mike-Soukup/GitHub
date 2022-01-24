@@ -1,0 +1,26 @@
+I have a major sweet tooth and love for ice cream. But not just ice cream! I am talking custard, frozen yogurt, gelato, all things frozen and delicious. This week I wanted to flush out one of my day dreams and realize how to run a profitable ice cream truck (think food truck instead of ice cream man).
+
+I have three staple frozen treat recipes. One for frozen custard, old style ice cream, and frozen yogurt. To make a batch of each frozen treat, the resources below are required and outputted:
+
+Custard:
+Volume (gal) = 3 
+Eggs = 24
+Sugar (cups) = 8
+Cost = $75
+
+Ice Cream:
+Volume (gal) = 1
+Eggs = 8
+Sugar (cups) = 2
+Cost = $50
+
+Frozen Yogurt:
+Volume (gal) = 3 
+Eggs = 0
+Sugar (cups) = 4
+Cost = $30
+
+I know I can fit a 100 gallon freezer in my ice cream truck. I also have 300 eggs and 200 cups of sugar. Additionally, I have a $1,000 left in my budget to make batches of my treats to make the biggest profit possible. If I make $225, $175, and $100 respectively for each batch of custard, ice cream, and frozen yogurt, how many batches of each frozen treat should I make to generate the largest profit?
+
+
+
