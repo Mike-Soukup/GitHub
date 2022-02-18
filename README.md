@@ -28,3 +28,7 @@ Sports Betting Mutual Fund Proof of Concept: https://sublimestatistics.com/2020/
 2020 Silverstone Grand Prix: https://sublimestatistics.com/2020/08/10/my-keys-70th-anniversary-grand-prix/ 
 
 See more at https://sublimestatistics.com/
+
+# NCAA March Madness Predictor 2022
+To see work on this project, please visit the GitHub repo Mike-Soukup/NCAA_MVP
+Or feel free to test the model at: https://ncaamensbasketballpredictions.uc.r.appspot.com/ 
